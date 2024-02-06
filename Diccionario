@@ -1,0 +1,16 @@
+while True:
+    meme_dict = {
+                "CRINGE": "Algo excepcionalmente raro o embarazoso",
+                "LOL": "Una respuesta común a algo gracioso",
+                "XD": "un tipo de emoji que representa una risa",
+                "ROLF": "una respueta a una broma",
+                "CREEPY": "aterrador o siniestro",
+                "OMG": "algo muy impresionante"
+                }
+    
+    word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+    
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("lo sentimos, ni nosotros sabemos que significa :c")
